@@ -1,0 +1,5 @@
+1.Web development is the process of creating and maintaining websites or web applications. It encompasses various tasks, including web design, web content development, server-side scripting, and client-side scripting. Web development is essential because it enables businesses, organizations, and individuals to establish an online presence, communicate effectively, and provide services to users worldwide. It also plays a crucial role in the functioning of the modern economy, as many interactions, transactions, and information exchanges occur online.
+2.I've heard of HTML but nothing more
+3.I know that JavaScript is a language 
+4. I don't know them
+5. I want to gain a hard skill 
