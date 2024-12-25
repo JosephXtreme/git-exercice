@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  font-style: italic;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 10fr;
+  gap: 0px;
+}
+header {
+  grid-area: header;
+  background-color: rgb(41, 41, 98);
+}
+.sidebar {
+  grid-area: "sidebar";
+  background: white;
+  height: 100vh;
+  font-size: large;
+}
+main {
+  grid-area: "main";
+  background-color: aliceblue;
+  padding: 10px;
+}
+.sidebar li:hover {
+  transform: scale(1.1);
+  animation-duration: 500ms;
+}

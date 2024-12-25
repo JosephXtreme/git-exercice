@@ -1,0 +1,24 @@
+.grid-calculator {
+  display: grid;
+  grid-template-areas:
+    "7 8 9 *"
+    "4 5 6 -"
+    "1 2 3 +"
+    "% 0 , = ";
+  grid-template-columns: 20vh 20vh 20vh 20vh;
+  grid-template-rows: 20vh 20vh 20vh 20vh;
+}
+.grid-calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  gap: 20px;
+  width: 500px;
+  background: rgb(154, 154, 212);
+  padding: 20px;
+  border-radius: 15px;
+}
+.egale {
+  background-color: blue;
+  color: aliceblue;
+}
